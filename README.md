@@ -34,7 +34,21 @@ git push -u origin main
 3. On GitHub: **Settings → Pages → Source: GitHub Actions**.
 4. The site will be at `https://YOUR_USER.github.io/humanixsoft/`.
 
-If you later point a custom domain (e.g. humanixsoft.com) at Pages, set `BASE_PATH` to `/` in `.github/workflows/deploy.yml`.
+If you later point a custom domain (e.g. humanixsoft.com) at Pages, this repo is already set to `BASE_PATH=/`. Add the domain in GitHub **Settings → Pages → Custom domain**, then set DNS at your registrar.
+
+### Namecheap → GitHub Pages (`humanixsoft.com`)
+
+In Namecheap: **Domain List → Manage → Advanced DNS**. Keep MX records if you use email.
+
+| Type | Host | Value |
+| --- | --- | --- |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `umairpakistan267.github.io.` |
+
+Then GitHub **Settings → Pages → Custom domain**: `humanixsoft.com` → Save. When DNS is green, keep **Enforce HTTPS** on.
 
 ## Stack
 
