@@ -26,7 +26,7 @@ export function Preloader({ onDone }: Props) {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.7, ease }}
       >
-        <ForgeMark className="h-16 w-16" />
+        <ForgeMark className="h-[88px] w-[88px]" />
       </motion.div>
       <motion.p
         className="font-display mt-6 text-lg font-semibold tracking-tight"
