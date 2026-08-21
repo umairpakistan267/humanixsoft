@@ -39,7 +39,7 @@ export function Navbar() {
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link to="/" className="flex items-center gap-3" aria-label="HumanixSoft home" data-cursor>
           <motion.span whileHover={{ rotate: -8, scale: 1.06 }} transition={{ type: 'spring', stiffness: 300, damping: 16 }}>
-            <ForgeMark className="h-10 w-10" />
+            <ForgeMark className="h-9 w-9" />
           </motion.span>
           <span className="font-display text-[15px] font-semibold tracking-tight">
             Humanix<span className="text-ember">Soft</span>

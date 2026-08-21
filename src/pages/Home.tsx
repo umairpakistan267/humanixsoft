@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Button } from '../components/Button'
 import { CountUp } from '../components/CountUp'
 import { EmberField } from '../components/EmberField'
+import { ForgeMark } from '../components/ForgeMark'
 import { Reveal } from '../components/Reveal'
 import { SectionHeader } from '../components/SectionHeader'
 import { SplitText } from '../components/SplitText'
@@ -55,10 +56,8 @@ function ForgeCore() {
         transition={{ duration: 4.2, repeat: Infinity, ease: 'easeInOut' }}
       />
       <div className="absolute inset-[22%] flex flex-col items-center justify-center">
-        <p className="font-display text-5xl font-extrabold tracking-tight sm:text-6xl">
-          H<span className="gradient-ember">U</span>
-        </p>
-        <p className="mt-2 text-[10px] uppercase tracking-[0.32em] text-copper">Est. 2019</p>
+        <ForgeMark className="h-[7.25rem] w-[7.25rem] sm:h-36 sm:w-36" />
+        <p className="mt-3 text-[10px] uppercase tracking-[0.32em] text-copper">Est. 2019</p>
       </div>
       <motion.span
         className="dot-glow absolute top-[8%] right-[18%] h-2.5 w-2.5 rounded-full bg-ember"

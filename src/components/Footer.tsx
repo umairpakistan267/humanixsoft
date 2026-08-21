@@ -21,7 +21,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
         <div>
           <Link to="/" className="inline-flex items-center gap-3" data-cursor>
-            <ForgeMark className="h-11 w-11" />
+            <ForgeMark />
             <span className="font-display text-lg font-semibold">
               Humanix<span className="text-ember">Soft</span>
             </span>

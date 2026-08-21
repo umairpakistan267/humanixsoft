@@ -1,40 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200">
-  <rect width="520" height="200" fill="#08080a"/>
-  <svg x="16" y="16" width="168" height="168" viewBox="0 0 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" fill="none">
+  <rect width="520" height="120" fill="#0C0D12"/>
+  <svg x="16" y="16" width="88" height="88" viewBox="0 0 64 64">
+    <rect width="64" height="64" rx="16" fill="#16171F"/>
+    <g fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#8B6CFF">
+        <path d="M20 19.2v26.6"/>
+        <path d="M20 32.5h14.6"/>
+        <path d="M34.6 19.2v23.2a8.6 8.6 0 0 0 17.2 0V24.6"/>
+      </g>
+      <g stroke="#EFEAF8" clip-path="url(#hx-logo-top)">
+        <path d="M20 19.2v26.6"/>
+        <path d="M20 32.5h14.6"/>
+        <path d="M34.6 19.2v23.2"/>
+      </g>
+    </g>
+    <circle cx="51.8" cy="16.4" r="3.55" fill="#C4B5FD"/>
     <defs>
-      <radialGradient id="hx-lockup-glow" cx="50%" cy="48%" r="48%">
-        <stop offset="0%" stop-color="#ff4d6d" stop-opacity="0.42"/>
-        <stop offset="42%" stop-color="#c41e3a" stop-opacity="0.16"/>
-        <stop offset="100%" stop-color="#08080a" stop-opacity="0"/>
-      </radialGradient>
-      <linearGradient id="hx-lockup-u" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#f7f4f2"/>
-        <stop offset="38%" stop-color="#ff8a9a"/>
-        <stop offset="100%" stop-color="#ff3d5a"/>
-      </linearGradient>
-      <linearGradient id="hx-lockup-ring" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
-        <stop offset="100%" stop-color="#ff4d6d" stop-opacity="0.18"/>
-      </linearGradient>
+      <clipPath id="hx-logo-top">
+        <rect x="12" y="0" width="26.8" height="36.6"/>
+      </clipPath>
     </defs>
-    <rect width="200" height="200" rx="28" fill="#08080a"/>
-    <circle cx="100" cy="96" r="78" fill="url(#hx-lockup-glow)"/>
-    <g fill="none" stroke="url(#hx-lockup-ring)">
-      <circle cx="100" cy="96" r="88" stroke-width="0.7" opacity="0.55"/>
-      <circle cx="100" cy="96" r="74" stroke-width="0.6" stroke-dasharray="3 5" opacity="0.7"/>
-      <circle cx="100" cy="96" r="60" stroke-width="0.7" opacity="0.4"/>
-    </g>
-    <g fill="none" stroke="#f4f1ee" stroke-width="12.5" stroke-linecap="square">
-      <path d="M53 78v50"/>
-      <path d="M85 78v50"/>
-      <path d="M53 103h32"/>
-    </g>
-    <path d="M107 78v32a20 20 0 0 0 40 0V78" fill="none" stroke="url(#hx-lockup-u)" stroke-width="12.5" stroke-linecap="square"/>
-    <circle cx="100" cy="70.5" r="5.2" fill="none" stroke="#ff4d6d" stroke-width="1.15"/>
-    <circle cx="100" cy="70.5" r="1.85" fill="#ff3d5a"/>
-    <text x="100" y="154" text-anchor="middle" fill="#f4f1ee" font-family="Outfit, ui-sans-serif, system-ui, sans-serif" font-size="8.2" font-weight="500" letter-spacing="3.4">EST. 2019</text>
   </svg>
-  <text x="204" y="108" font-family="Outfit, Inter, ui-sans-serif, system-ui, sans-serif" font-size="42" font-weight="650" letter-spacing="-1.2">
-    <tspan fill="#F4F1FA">Humanix</tspan><tspan fill="#ff4d6d">Soft</tspan>
+  <text x="124" y="74" font-family="Outfit, Inter, ui-sans-serif, system-ui, sans-serif" font-size="42" font-weight="650" letter-spacing="-1.2">
+    <tspan fill="#F4F1FA">Humanix</tspan><tspan fill="#8B6CFF">Soft</tspan>
   </text>
 </svg>
