@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HumanixSoft is a product studio that designs and builds web, mobile, cloud, and AI software for ambitious companies."
+    />
+    <meta name="theme-color" content="#0c0d12" />
+    <script>
+      (function () {
+        try {
+          var known = {
+            ember: 1, cyan: 1, light: 1, violet: 1,
+            noir: 1, gold: 1, slate: 1, forest: 1, wine: 1, azure: 1,
+            ivory: 1, porcelain: 1,
+            rose: 1, obsidian: 1, mocha: 1, crimson: 1, arctic: 1,
+            linen: 1, mint: 1, blush: 1
+          }
+          var light = { light: 1, ivory: 1, porcelain: 1, linen: 1, mint: 1, blush: 1 }
+          var t = localStorage.getItem('hx-theme') || 'violet'
+          if (!known[t]) t = 'violet'
+          document.documentElement.setAttribute('data-theme', t)
+          document.documentElement.style.colorScheme = light[t] ? 'light' : 'dark'
+        } catch (e) {}
+      })()
+    </script>
+    <meta property="og:title" content="HumanixSoft — Software, built with intent" />
+    <meta
+      property="og:description"
+      content="A modern software house for web, mobile, cloud, and AI products — from first spark to production."
+    />
+    <meta property="og:type" content="website" />
+    <title>HumanixSoft — Software, built with intent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
