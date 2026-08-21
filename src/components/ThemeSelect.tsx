@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
-import { themes, type ThemeId } from '../theme'
+import { defaultTheme, themes, type ThemeId } from '../theme'
 import { ease } from '../motion'
 import { useTheme } from './ThemeProvider'
 
@@ -18,7 +18,7 @@ export function ThemeSelect({ className = '', inline = false }: { className?: st
   const { theme, setTheme } = useTheme()
   const [open, setOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
-  const current = themes.find((item) => item.id === theme) ?? themes[2]
+  const current = themes.find((item) => item.id === theme) ?? themes.find((item) => item.id === defaultTheme)!
   const dark = themes.filter((item) => item.group === 'dark')
   const light = themes.filter((item) => item.group === 'light')
 

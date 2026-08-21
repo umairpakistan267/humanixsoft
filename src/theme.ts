@@ -25,18 +25,20 @@ export type ThemeId = (typeof themes)[number]['id']
 
 const storageKey = 'hx-theme'
 
+export const defaultTheme: ThemeId = 'mint'
+
 export function isThemeId(value: string): value is ThemeId {
   return themes.some((theme) => theme.id === value)
 }
 
 export function getStoredTheme(): ThemeId {
-  if (typeof window === 'undefined') return 'violet'
+  if (typeof window === 'undefined') return defaultTheme
   const stored = localStorage.getItem(storageKey)
-  return stored && isThemeId(stored) ? stored : 'violet'
+  return stored && isThemeId(stored) ? stored : defaultTheme
 }
 
 export function applyTheme(id: ThemeId) {
-  const theme = themes.find((item) => item.id === id) ?? themes[2]
+  const theme = themes.find((item) => item.id === id) ?? themes.find((item) => item.id === defaultTheme)!
   document.documentElement.setAttribute('data-theme', theme.id)
   document.documentElement.style.colorScheme = theme.group === 'light' ? 'light' : 'dark'
   localStorage.setItem(storageKey, theme.id)
