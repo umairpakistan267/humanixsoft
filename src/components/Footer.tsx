@@ -80,7 +80,7 @@ export function Footer() {
           <a href="mailto:hello@humanixsoft.com" className="mt-4 block text-sm text-paper/80 transition hover:text-ember" data-cursor>
             hello@humanixsoft.com
           </a>
-          <p className="mt-2 text-sm text-muted">Clifton, Karachi · Worldwide remote</p>
+          <p className="mt-2 text-sm text-muted">Bahira, Islamabad · Worldwide remote</p>
           <p className="mt-2 text-sm text-muted">Mon–Fri, 10:00–18:00 PKT</p>
         </div>
       </div>

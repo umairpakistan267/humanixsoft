@@ -97,7 +97,7 @@ export function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease }}
             >
-              Software house · Karachi · Worldwide
+              Software house · Islamabad · Worldwide
             </motion.p>
             <h1 className="font-display mt-6 max-w-3xl text-4xl leading-[0.98] font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
               <SplitText text="We forge products" delay={0.12} />

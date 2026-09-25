@@ -115,7 +115,7 @@ export function Contact() {
             </div>
             <div>
               <p className="text-copper uppercase tracking-[0.18em] text-[11px]">Studio</p>
-              <p className="mt-1 text-paper/80">Clifton, Karachi · Pakistan</p>
+              <p className="mt-1 text-paper/80">Bahria, Islamabad · Pakistan</p>
             </div>
             <div>
               <p className="text-copper uppercase tracking-[0.18em] text-[11px]">Hours</p>
