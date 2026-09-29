@@ -27,7 +27,7 @@ export function Footer() {
             </span>
           </Link>
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted">
-            A product studio in Karachi, shipping for the world. We design and build software that holds — web, mobile, cloud, and AI.
+            A product studio in Islamabad, shipping for the world. We design and build software that holds — web, mobile, cloud, and AI.
           </p>
         </div>
 

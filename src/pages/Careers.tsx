@@ -39,7 +39,7 @@ export function Careers() {
               </p>
             </Reveal>
             <Reveal delay={160}>
-              <p className="font-display text-xl font-semibold">Karachi root, global hours.</p>
+              <p className="font-display text-xl font-semibold">Islamabad root, global hours.</p>
               <p className="mt-3 text-sm leading-relaxed text-ink/65">
                 Studio days in Clifton, remote-friendly roles, overlap that respects people with lives.
               </p>

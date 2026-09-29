@@ -9,7 +9,7 @@ import { team, timeline, values, purpose } from '../data'
 export function About() {
   usePageMeta(
     'About · HumanixSoft',
-    'HumanixSoft is a Karachi-rooted product studio. We forge web, mobile, cloud, and AI software with a small senior team.',
+    'HumanixSoft is a Islamabad-rooted product studio. We forge web, mobile, cloud, and AI software with a small senior team.',
   )
 
   return (

@@ -364,7 +364,7 @@ export const team = [
 ] as const
 
 export const timeline = [
-  { year: '2019', copy: 'HumanixSoft starts as a two-person studio in Karachi, shipping for founders who were tired of agencies that vanished after kickoff.' },
+  { year: '2019', copy: 'HumanixSoft starts as a two-person studio in Islamabad, shipping for founders who were tired of agencies that vanished after kickoff.' },
   { year: '2021', copy: 'First dedicated squads. We stop being a “project shop” and become a product partner — still small on purpose.' },
   { year: '2023', copy: 'Work spans fintech, health, and logistics. Remote collaborators join from Europe and West Africa. The forge stays one culture.' },
   { year: '2026', copy: 'Eighty-plus products later, we still take fewer clients than we could. Heat and attention do not scale like a slideshow.' },
@@ -375,14 +375,14 @@ export const jobs = [
     id: 'senior-product-engineer',
     title: 'Senior Product Engineer',
     type: 'Full-time · Remote-friendly',
-    location: 'Karachi / Remote',
+    location: 'Islamabad / Remote',
     blurb: 'Own slices of product end-to-end. TypeScript, taste, and the nerve to disagree early.',
   },
   {
     id: 'product-designer',
     title: 'Product Designer',
     type: 'Full-time · Hybrid',
-    location: 'Karachi',
+    location: 'Islamabad',
     blurb: 'UX to UI to the awkward questions. You will sit with engineers, not throw files over a wall.',
   },
   {
@@ -412,7 +412,7 @@ export const faqs = [
   },
   {
     q: 'Where is the team based?',
-    a: 'The studio is rooted in Karachi, with collaborators across time zones. We work in the open: Slack or Teams, weekly demos, written decisions.',
+    a: 'The studio is rooted in Islamabad, with collaborators across time zones. We work in the open: Slack or Teams, weekly demos, written decisions.',
   },
   {
     q: 'Can you join an existing codebase?',
@@ -587,6 +587,6 @@ export const insights = [
 ] as const
 
 export const offices = [
-  { city: 'Karachi', region: 'Pakistan', note: 'Studio · shipping worldwide' },
+  { city: 'Islamabad', region: 'Pakistan', note: 'Studio · shipping worldwide' },
   { city: 'Remote', region: 'Worldwide', note: 'Collaborators across time zones' },
 ] as const
