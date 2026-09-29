@@ -3,7 +3,7 @@ import { navLinks } from '../data'
 import { ForgeMark } from './ForgeMark'
 
 export function Footer() {
-  const ribbon = ['HUMANIXSOFT', 'KARACHI · WORLDWIDE', 'SOFTWARE WITH INTENT']
+  const ribbon = ['HUMANIXSOFT', 'ISLAMABAD · WORLDWIDE', 'SOFTWARE WITH INTENT']
 
   return (
     <footer className="border-t border-line bg-ink">
